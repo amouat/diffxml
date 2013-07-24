@@ -1,0 +1,40 @@
+<mx.unam.fciencias.conexa.javatree.CollapsedCompilationUnit>
+  <hasPackage>false</hasPackage>
+  <children>
+    <mx.unam.fciencias.conexa.javatree.CollapsedClassDeclaration>
+      <isAbstract>false</isAbstract>
+      <isFinal>false</isFinal>
+      <isPublic>true</isPublic>
+      <isStrictfp>false</isStrictfp>
+      <className>Tst2</className>
+      <superClass>IOException</superClass>
+      <interfaces/>
+      <children>
+        <mx.unam.fciencias.conexa.javatree.CollapsedMethodDeclaration>
+          <isPublic>true</isPublic>
+          <isProtected>false</isProtected>
+          <isPrivate>false</isPrivate>
+          <isStatic>false</isStatic>
+          <isAbstract>false</isAbstract>
+          <isFinal>false</isFinal>
+          <isNative>false</isNative>
+          <isSynchronized>false</isSynchronized>
+          <isStrictfp>false</isStrictfp>
+          <hasBlock>true</hasBlock>
+          <methodName>metodo1</methodName>
+          <resultType>void</resultType>
+          <exceptions/>
+          <parameters>
+            <string>int t</string>
+            <string>int g</string>
+          </parameters>
+          <children>
+            <mx.unam.fciencias.conexa.javatree.CollapsedBlock>
+              <children/>
+            </mx.unam.fciencias.conexa.javatree.CollapsedBlock>
+          </children>
+        </mx.unam.fciencias.conexa.javatree.CollapsedMethodDeclaration>
+      </children>
+    </mx.unam.fciencias.conexa.javatree.CollapsedClassDeclaration>
+  </children>
+</mx.unam.fciencias.conexa.javatree.CollapsedCompilationUnit>

@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+
+<parent>This element has <child t="test">embedded text</child> within it.</parent>

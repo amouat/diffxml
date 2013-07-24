@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE MYDOCUMENT [
+  <!ELEMENT MYDOCUMENT (#PCDATA)>
+  <!ENTITY version "3.4.5.6">
+]>
+<MYDOCUMENT VERSION="&version;"><b/>&version;</MYDOCUMENT>

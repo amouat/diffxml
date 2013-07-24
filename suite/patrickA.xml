@@ -1,0 +1,31 @@
+<organization_settings>
+    <name>Jorsek</name>
+    <group_prefix>__jorsek-</group_prefix>
+    <contributor_group_prefix>__jorsek_contributor-</contributor_group_prefix>
+    <group>jorsek</group>
+    <admin_group>jorsek-dba</admin_group>
+    <document-status parent-path="prolog/metadata" status-node="othermeta" name-node="@name" value-node="@content" status-name-value="__status" default-value="draft">
+        <option name="Obsoleted" value="obsoleted" color="#FF0000"/>
+        <option name="Needs Reevaluation" value="needs_reevaluation" color="#4F1D1D"/>
+        <option name="Draft" value="draft" color="#4F1D1D"/>
+        <option name="In Review" value="in_review" color="#3F3B3B"/>
+        <option name="Approved" value="approved" color="#73DF61"/>
+        <option name="Published" value="published" color="#2673CF"/>
+        <option name="Localized" value="localized" color="#85008F"/>
+    </document-status>
+    <data-processing-plugins>
+        <plugin name="alfresco" path="plugins/alfresco/" namespace-uri="http://jorsek.com/stem/plugin/alfresco/dp" namespace-prefix="stem-plugin-alfresco-dp"/>
+    </data-processing-plugins>
+    <plugin-application-profiles>
+        <plugin-application-profile name="data_process">
+            <plugin name="alfresco" path="plugins/alfresco/" namespace-uri="http://jorsek.com/stem/plugin/alfresco/dp" namespace-prefix="stem-plugin-alfresco-dp"/>
+        </plugin-application-profile>
+        <plugin-application-profile name="content_manager">
+            <plugin name="alfresco" path="plugins/alfresco/" namespace-uri="http://jorsek.com/stem/plugin/alfresco" namespace-prefix="stem-plugin-alfresco"/>
+        </plugin-application-profile>
+    </plugin-application-profiles>
+    <publishing_pipes>
+        <publishing_pipe name="DITA OT PDF" plugin="ditaot" interface="pdf"/>
+        <publishing_pipe name="WordPress Publishing" plugin="wordpress" interface="default"/>
+    </publishing_pipes>
+</organization_settings>

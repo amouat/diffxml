@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gmr:Workbook xmlns:gmr="http://www.gnome.org/gnumeric/v5">
+  <gmr:Attributes>
+    <gmr:Attribute>
+      <gmr:name>WorkbookView::show_horizontal_scrollbar</gmr:name>
+      <gmr:type>4</gmr:type>
+      <gmr:value>TRUE</gmr:value>
+    </gmr:Attribute>
+    <gmr:Attribute>
+      <gmr:name>WorkbookView::show_vertical_scrollbar</gmr:name>
+      <gmr:type>4</gmr:type>
+      <gmr:value>TRUE</gmr:value>
+    </gmr:Attribute>
+    <gmr:Attribute>
+      <gmr:name>WorkbookView::show_notebook_tabs</gmr:name>
+      <gmr:type>4</gmr:type>
+      <gmr:value>TRUE</gmr:value>
+    </gmr:Attribute>
+  </gmr:Attributes>
+  <gmr:Summary>
+    <gmr:Item>
+      <gmr:name>application</gmr:name>
+      <gmr:val-string>gnumeric</gmr:val-string>
+    </gmr:Item>
+    <gmr:Item>
+      <gmr:name>author</gmr:name>
+      <gmr:val-string>Adrian Edward Mouat</gmr:val-string>
+    </gmr:Item>
+  </gmr:Summary>
+  <gmr:Names/>
+  <gmr:Geometry Width="0" Height="0"/>
+  <gmr:Sheets>
+    <gmr:Sheet>
+      <gmr:Name>Sheet1</gmr:Name>
+      <gmr:MaxCol>2</gmr:MaxCol>
+      <gmr:MaxRow>0</gmr:MaxRow>
+      <gmr:Zoom>1.000000</gmr:Zoom>
+      <gmr:Names/>
+      <gmr:PrintInformation>
+        <gmr:PrintUnit Points="28.34645669291" PrefUnit="cm">top</gmr:PrintUnit>
+        <gmr:PrintUnit Points="28.34645669291" PrefUnit="cm">bottom</gmr:PrintUnit>
+        <gmr:PrintUnit Points="28.34645669291" PrefUnit="cm">left</gmr:PrintUnit>
+        <gmr:PrintUnit Points="28.34645669291" PrefUnit="cm">right</gmr:PrintUnit>
+        <gmr:PrintUnit Points="14.17322834646" PrefUnit="cm">header</gmr:PrintUnit>
+        <gmr:PrintUnit Points="14.17322834646" PrefUnit="cm">footer</gmr:PrintUnit>
+        <gmr:vcenter value="0"/>
+        <gmr:hcenter value="0"/>
+        <gmr:grid value="0"/>
+        <gmr:monochrome value="0"/>
+        <gmr:draft value="0"/>
+        <gmr:titles value="0"/>
+        <gmr:repeat_top value=""/>
+        <gmr:repeat_left value=""/>
+        <gmr:order>r_then_d</gmr:order>
+        <gmr:orientation>landscape</gmr:orientation>
+        <gmr:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gmr:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gmr:paper>A4</gmr:paper>
+      </gmr:PrintInformation>
+      <gmr:Cols DefaultSizePts="48">
+        <gmr:ColInfo No="0" Unit="48" MarginA="2" MarginB="2" HardSize="0" Hidden="0" Count="3"/>
+      </gmr:Cols>
+      <gmr:Rows DefaultSizePts="12.75">
+        <gmr:RowInfo No="0" Unit="12.75" MarginA="1" MarginB="0" HardSize="0" Hidden="0"/>
+      </gmr:Rows>
+      <gmr:Selections CursorCol="1" CursorRow="1">
+        <gmr:Selection startCol="1" startRow="1" endCol="1" endRow="1"/>
+      </gmr:Selections>
+      <gmr:Cells>
+        <gmr:Cell Col="0" Row="0" ValueType="30">
+          <gmr:Content>1</gmr:Content>
+        </gmr:Cell>
+        <gmr:Cell Col="1" Row="0" ValueType="30">
+          <gmr:Content>3</gmr:Content>
+        </gmr:Cell>
+        <gmr:Cell Col="2" Row="0">
+          <gmr:Content>=A1+B1</gmr:Content>
+        </gmr:Cell>
+      </gmr:Cells>
+      <gmr:Solver TargetCol="-1" TargetRow="-1" ProblemType="1" Inputs=""/>
+    </gmr:Sheet>
+  </gmr:Sheets>
+  <gmr:UIData SelectedTab="0"/>
+</gmr:Workbook>
