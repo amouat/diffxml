@@ -5,7 +5,7 @@ Diff and Patch XML files
 
 To build from source:
 
-   $ ant jarDiffXML
+    $ ant jarDiffXML
    
 To run: 
 
