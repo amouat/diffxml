@@ -80,7 +80,7 @@
           depends="compileDiffXML"
           description="packages all classes into a jar">
 
-          <jar jarfile="${build.dir}/diffxml.jar" basedir="${build.dir}/"/>
+          <jar jarfile="${lib.dir}/diffxml.jar" basedir="${build.dir}/"/>
     <antcall target="cleanClasses"/>
 
   </target>
